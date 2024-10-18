@@ -1121,7 +1121,7 @@ GameObject:
   - component: {fileID: 572361661}
   - component: {fileID: 572361660}
   m_Layer: 0
-  m_Name: Enemy2
+  m_Name: OldGuy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1149,13 +1149,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572361658}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 645056f5897b69c40afc7ac19300c015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   maxHealth: 100
   currentHealth: 0
+  AtkDamage: 0
 --- !u!95 &572361661
 Animator:
   serializedVersion: 5
@@ -1786,7 +1788,7 @@ GameObject:
   - component: {fileID: 1007988600}
   - component: {fileID: 1007988599}
   m_Layer: 0
-  m_Name: Enemy2 (1)
+  m_Name: HatMan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1814,13 +1816,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007988597}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 645056f5897b69c40afc7ac19300c015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
   maxHealth: 100
   currentHealth: 0
+  AtkDamage: 0
 --- !u!95 &1007988600
 Animator:
   serializedVersion: 5
@@ -2435,7 +2439,7 @@ GameObject:
   - component: {fileID: 1227597640}
   - component: {fileID: 1227597639}
   m_Layer: 0
-  m_Name: Enemy1
+  m_Name: FatDude
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2520,8 +2524,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 645056f5897b69c40afc7ac19300c015, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1740432289}
   maxHealth: 100
   currentHealth: 0
+  AtkDamage: 0
 --- !u!95 &1227597640
 Animator:
   serializedVersion: 5
@@ -3491,7 +3497,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740432286}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c931b9c65e64b3344a49c8574c5b7ab2, type: 3}
   m_Name: 
@@ -3514,6 +3520,8 @@ MonoBehaviour:
   Slash: 0
   Cleave: 0
   enemy: {fileID: 1227597639}
+  maxHealth: 100
+  currentHealth: 0
 --- !u!1 &1840414440
 GameObject:
   m_ObjectHideFlags: 0

@@ -4,12 +4,22 @@ using UnityEngine;
 using DiceNS;
 using EnemyNS;
 
+namespace PlayerAttackNS
+{
 public class PlayerAttack : MonoBehaviour
 {
     public int Pierce;
     public int Slash;
     public int Cleave;
     public EnemyNS.Enemy enemy;
+    private bool isPlayerTurn = true;
+    public int maxHealth = 100;
+    public int currentHealth;
+
+    private void Start()
+    {
+        currentHealth = maxHealth;
+    }
 
     private void Update()
     {
@@ -38,10 +48,39 @@ public class PlayerAttack : MonoBehaviour
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
+            isPlayerTurn = false;
+            StartCoroutine(EnemyTurn());
         }
     }   
     private int RollDice(int sides)
     {
         return Random.Range(1, sides+1);
     }
+
+    System.Collections.IEnumerator EnemyTurn()
+    {
+        yield return new WaitForSeconds(1f);
+        if(enemy != null)
+        {
+            enemy.AttackPlayer();
+        }
+        isPlayerTurn = true;
+    }
+    
+    public void TakingDamage(int damage)
+    {
+        currentHealth -= damage;
+        Debug.Log("Took" + damage +"damage!");
+        if (currentHealth<0)
+        {
+            currentHealth = 0;
+            Death();
+        }
+
+    }
+    private void Death()
+    {
+        Debug.Log("You Died");
+    }
+}
 }

@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace HealthNS
+{
 public class HealthManager : MonoBehaviour
 {
 
@@ -28,4 +30,5 @@ public class HealthManager : MonoBehaviour
     {
         Debug.Log("You Died");
     }
+}
 }
