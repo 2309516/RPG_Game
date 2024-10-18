@@ -4,9 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class NewBehaviourScript : MonoBehaviour
+namespace DiceNS
 {
-    
+    public class DiceRoller : MonoBehaviour
+{ 
     public TMP_InputField dice6ResultText;
     public TMP_InputField dice12ResultText;
     public TMP_InputField dice20ResultText;
@@ -36,4 +37,6 @@ public class NewBehaviourScript : MonoBehaviour
         return Random.Range(1, sides+1);
     }
 }
+}
+
 
