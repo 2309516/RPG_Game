@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace EnemyNamespace
+namespace EnemyNS
 {
 public class Enemy : MonoBehaviour
 {

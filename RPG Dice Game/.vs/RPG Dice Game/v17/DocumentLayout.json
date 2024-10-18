@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bradl\\OneDrive\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\",
+  "WorkspaceRootPath": "C:\\Users\\2309516\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{950AD057-71EA-19EC-97CB-B802DACC8C4D}|Assembly-CSharp.csproj|c:\\users\\bradl\\onedrive\\documents\\github\\rpg_game\\rpg dice game\\assets\\scripts\\pawn\\player attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{950AD057-71EA-19EC-97CB-B802DACC8C4D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pawn\\player attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{950AD057-71EA-19EC-97CB-B802DACC8C4D}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\rpg_game\\rpg dice game\\assets\\scripts\\pawn\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950AD057-71EA-19EC-97CB-B802DACC8C4D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pawn\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{950AD057-71EA-19EC-97CB-B802DACC8C4D}|Assembly-CSharp.csproj|c:\\users\\bradl\\onedrive\\documents\\github\\rpg_game\\rpg dice game\\assets\\scripts\\pawn\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{950AD057-71EA-19EC-97CB-B802DACC8C4D}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\rpg_game\\rpg dice game\\assets\\scripts\\pawn\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{950AD057-71EA-19EC-97CB-B802DACC8C4D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pawn\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{950AD057-71EA-19EC-97CB-B802DACC8C4D}|Assembly-CSharp.csproj|C:\\Users\\bradl\\OneDrive\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\assets\\scripts\\dice\\diceroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{950AD057-71EA-19EC-97CB-B802DACC8C4D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dice\\diceroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{950AD057-71EA-19EC-97CB-B802DACC8C4D}|Assembly-CSharp.csproj|c:\\users\\2309516\\documents\\github\\rpg_game\\rpg dice game\\assets\\scripts\\pawn\\player attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{950AD057-71EA-19EC-97CB-B802DACC8C4D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pawn\\player attack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,44 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Player Attack.cs",
-              "DocumentMoniker": "C:\\Users\\bradl\\OneDrive\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\Assets\\Scripts\\Pawn\\Player Attack.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Pawn\\Player Attack.cs",
-              "ToolTip": "C:\\Users\\bradl\\OneDrive\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\Assets\\Scripts\\Pawn\\Player Attack.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Pawn\\Player Attack.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\Assets\\Scripts\\Pawn\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Pawn\\Enemy.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\Assets\\Scripts\\Pawn\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Pawn\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:07:08.808Z",
+              "WhenOpened": "2024-10-18T14:11:26.71Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "HealthManager.cs",
-              "DocumentMoniker": "C:\\Users\\bradl\\OneDrive\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\Assets\\Scripts\\Pawn\\HealthManager.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\Assets\\Scripts\\Pawn\\HealthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pawn\\HealthManager.cs",
-              "ToolTip": "C:\\Users\\bradl\\OneDrive\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\Assets\\Scripts\\Pawn\\HealthManager.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\Assets\\Scripts\\Pawn\\HealthManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Pawn\\HealthManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T11:05:15.898Z",
+              "WhenOpened": "2024-10-18T14:11:16.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DiceRoller.cs",
-              "DocumentMoniker": "C:\\Users\\bradl\\OneDrive\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\Assets\\Scripts\\Dice\\DiceRoller.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dice\\DiceRoller.cs",
-              "ToolTip": "C:\\Users\\bradl\\OneDrive\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\Assets\\Scripts\\Dice\\DiceRoller.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dice\\DiceRoller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "Title": "Player Attack.cs",
+              "DocumentMoniker": "C:\\Users\\2309516\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\Assets\\Scripts\\Pawn\\Player Attack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Pawn\\Player Attack.cs",
+              "ToolTip": "C:\\Users\\2309516\\Documents\\GitHub\\RPG_Game\\RPG Dice Game\\Assets\\Scripts\\Pawn\\Player Attack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Pawn\\Player Attack.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T13:12:12.786Z"
+              "WhenOpened": "2024-10-18T14:10:52.066Z",
+              "EditorCaption": ""
             }
           ]
         }
