@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - TextElement
   - Water
   - UI
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: TextElement
+    uniqueID: 4033075201
+    locked: 0
   - name: Background
     uniqueID: 3714396241
     locked: 0

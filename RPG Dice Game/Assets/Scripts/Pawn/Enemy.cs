@@ -1,6 +1,7 @@
 using UnityEngine;
 using PlayerAttackNS;
 using HealthNS;
+using TMPro;
 
 namespace EnemyNS
 {
@@ -11,6 +12,8 @@ public class Enemy : MonoBehaviour
     public int currentHealth; 
     public int AtkDamage;
 
+    public TMP_Text enemyHealthText;
+
     private void Start()
     {
         currentHealth = maxHealth;
@@ -19,6 +22,7 @@ public class Enemy : MonoBehaviour
     {
         currentHealth -= damage;
         Debug.Log("Enemy took " + damage + " damage. Current Health: " + currentHealth);
+        UpdateHealthText();
 
         if (currentHealth <= 0)
         {
@@ -34,6 +38,10 @@ public class Enemy : MonoBehaviour
             Debug.Log("You were hit with " + AtkDamage + " damage");
             player.TakingDamage(AtkDamage);
         }
+    }
+    private void UpdateHealthText()
+    {
+        enemyHealthText.text = "Health: " + currentHealth.ToString();
     }
     private void Die()
     {
