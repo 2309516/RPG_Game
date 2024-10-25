@@ -1340,90 +1340,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageText: {fileID: 492779051}
   fadeOut: 2
---- !u!1 &499884705
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 499884707}
-  - component: {fileID: 499884706}
-  m_Layer: 0
-  m_Name: Heal
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &499884706
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499884705}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 1343038591, guid: 6676a3b9ae2c462419c6d43050530f82, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &499884707
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499884705}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -101, y: 311, z: -2705.0571}
-  m_LocalScale: {x: 560, y: 530, z: 262.1689}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1847460780}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &547833649
 GameObject:
   m_ObjectHideFlags: 0
@@ -2205,7 +2121,7 @@ GameObject:
   - component: {fileID: 718081331}
   - component: {fileID: 718081330}
   - component: {fileID: 718081332}
-  - component: {fileID: 718081333}
+  - component: {fileID: 718081334}
   m_Layer: 0
   m_Name: CardPierce
   m_TagString: Untagged
@@ -2274,7 +2190,7 @@ Transform:
   m_GameObject: {fileID: 718081329}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.16504757, w: 0.9862857}
-  m_LocalPosition: {x: -206, y: -620, z: -2705.0571}
+  m_LocalPosition: {x: -200, y: -668, z: -2705.0571}
   m_LocalScale: {x: 560, y: 530, z: 337.275}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2325,7 +2241,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.8}
   m_EdgeRadius: 0
---- !u!114 &718081333
+--- !u!114 &718081334
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2334,10 +2250,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 718081329}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8b8d4777a262fc48a548db3019c3c18, type: 3}
+  m_Script: {fileID: 11500000, guid: d06a106e0b988154fbd5e2f20b4a4dbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1740432289}
+  cardType: 0
   changeColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   moveHeight: 100
   moveSpeed: 500
@@ -2418,13 +2335,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831697850}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
-  m_LocalPosition: {x: 199, y: 306, z: -2705.0571}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0066402177, w: -0.999978}
+  m_LocalPosition: {x: 70, y: -108, z: -2705.0571}
   m_LocalScale: {x: 560, y: 530, z: 171.85162}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1847460780}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -360.761}
 --- !u!1 &833350486
 GameObject:
   m_ObjectHideFlags: 0
@@ -2799,7 +2716,7 @@ GameObject:
   - component: {fileID: 1037226170}
   - component: {fileID: 1037226169}
   - component: {fileID: 1037226171}
-  - component: {fileID: 1037226172}
+  - component: {fileID: 1037226173}
   m_Layer: 0
   m_Name: CardSlash
   m_TagString: Untagged
@@ -2868,7 +2785,7 @@ Transform:
   m_GameObject: {fileID: 1037226168}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 49, y: -579, z: -2705.0571}
+  m_LocalPosition: {x: 50, y: -628, z: -2705.0571}
   m_LocalScale: {x: 560, y: 530, z: 320.69998}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2919,7 +2836,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.8}
   m_EdgeRadius: 0
---- !u!114 &1037226172
+--- !u!114 &1037226173
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2928,10 +2845,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1037226168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e53d81630d3205445b9f87b8fe1c918c, type: 3}
+  m_Script: {fileID: 11500000, guid: d06a106e0b988154fbd5e2f20b4a4dbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1740432289}
+  cardType: 1
   changeColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   moveHeight: 100
   moveSpeed: 500
@@ -3910,7 +3828,7 @@ GameObject:
   - component: {fileID: 1463610043}
   - component: {fileID: 1463610042}
   - component: {fileID: 1463610044}
-  - component: {fileID: 1463610045}
+  - component: {fileID: 1463610046}
   m_Layer: 0
   m_Name: CardCleave
   m_TagString: Untagged
@@ -3979,7 +3897,7 @@ Transform:
   m_GameObject: {fileID: 1463610041}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.16504757, w: 0.9862857}
-  m_LocalPosition: {x: 311, y: -621, z: -2705.0571}
+  m_LocalPosition: {x: 300, y: -662, z: -2705.0571}
   m_LocalScale: {x: 560, y: 530, z: 250}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4030,7 +3948,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.8}
   m_EdgeRadius: 0
---- !u!114 &1463610045
+--- !u!114 &1463610046
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4039,10 +3957,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1463610041}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a811c5beed3d56438a70d254476d36e, type: 3}
+  m_Script: {fileID: 11500000, guid: d06a106e0b988154fbd5e2f20b4a4dbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1740432289}
+  cardType: 2
   changeColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   moveHeight: 100
   moveSpeed: 500
@@ -4549,6 +4468,7 @@ MonoBehaviour:
   Pierce: 0
   Slash: 0
   Cleave: 0
+  missedText: {fileID: 0}
   enemy: {fileID: 1227597639}
   damageText: {fileID: 492779053}
   maxHealth: 100
@@ -4681,6 +4601,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1847460780}
+  - component: {fileID: 1847460781}
   m_Layer: 0
   m_Name: Cards
   m_TagString: Untagged
@@ -4704,10 +4625,26 @@ Transform:
   - {fileID: 718081331}
   - {fileID: 1037226170}
   - {fileID: 1463610043}
-  - {fileID: 499884707}
   - {fileID: 831697852}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1847460781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847460779}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d06a106e0b988154fbd5e2f20b4a4dbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1740432289}
+  cardType: 0
+  changeColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  moveHeight: 1
+  moveSpeed: 10
 --- !u!1 &1864069814
 GameObject:
   m_ObjectHideFlags: 0

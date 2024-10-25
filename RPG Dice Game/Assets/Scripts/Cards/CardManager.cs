@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using PlayerAttackNS;
-public class Pierce : MonoBehaviour
+public class CardManager : MonoBehaviour
 {
     public PlayerAttackNS.PlayerAttack player;
-
-    private void OnMouseDown()
+    public enum CardType
     {
-        player.PierceCard();
+       Pierce, 
+       Slash, 
+       Cleave,
     }
+
 }
