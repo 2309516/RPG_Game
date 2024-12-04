@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace HealthNS
 {
@@ -28,7 +29,7 @@ public class HealthManager : MonoBehaviour
     }
     private void Death()
     {
-        Debug.Log("You Died");
+        SceneManager.LoadScene(3);
     }
 }
 }

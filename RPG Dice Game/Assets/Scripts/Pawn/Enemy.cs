@@ -2,6 +2,7 @@ using UnityEngine;
 using PlayerAttackNS;
 using HealthNS;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 namespace EnemyNS
 {
@@ -45,8 +46,7 @@ public class Enemy : MonoBehaviour
     }
     private void Die()
     {
-        Debug.Log("Enemy died!");
-        Destroy(gameObject);
+        SceneManager.LoadScene(2);
     }
 }
 }
